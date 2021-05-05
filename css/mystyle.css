@@ -1,1 +1,335 @@
+* {
 
+    margin: 0 !important;
+
+}
+
+html, body {
+
+    height: 100%;
+
+    width: 100%;
+
+}
+
+ 
+
+h1 {
+
+    font-family: 'Patrick Hand', cursive;
+    font-size: 80px;
+
+    color: #cc9900;
+
+
+}
+
+ 
+
+h2 {
+
+     font-family: 'Patrick Hand', cursive;
+
+     font-size: 40px;
+
+     color: #cc9900;
+
+
+     border-bottom: 3px solid #000000;
+
+     display: inline;
+
+}
+
+ 
+
+.home-jumbotron {
+
+     background: linear-gradient(rgb(172, 122, 83,0.9), rgb(111, 115, 115)), url("https://upload.wikimedia.org/wikipedia/commons/6/60/Matterhorn_from_Domh%C3%BCtte_-_2.jpg") center center fixed;
+
+     background-size: cover;
+
+     height: 100%;
+
+     width: 100%;
+
+     margin: 0;
+
+     min-height: 510px;
+
+     position: relative;
+
+}
+
+.about-jumbotron {
+
+     background: linear-gradient(rgb(255, 253, 143), rgba(206,81,237,0.9)), url("https://i.ytimg.com/vi/-Yz78dFgjKQ/maxresdefault.jpg") center center fixed;
+
+     background-size: cover;
+
+     height: 100%;
+
+     width: 100%;
+
+     margin: 0;
+
+     min-height: 510px;
+
+     position: relative;
+
+}
+
+
+ol, ul {
+    list-style: none;
+    
+}
+.nav-bar {
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+}
+.nav-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%
+    overflow: hidden;
+    background-color: #4B4A5A;
+}
+.nav-bar li {
+    float: right;
+    padding-top: .455rem;
+    padding-right: .75rem;
+}
+
+.nav-bar li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 7px 8px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.nav-bar li a: hover {
+    color: #43e8d8;
+    text-shadow: 2px 2px 10px #111;
+    
+}
+
+.avatar {
+    display: block;
+    height: 220px;
+    width: 220px;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0px 0px 10px #CCCCCC;
+}
+.blurb {
+    padding-bottom: 45px;
+}
+
+.profile-pic {
+    padding-top: 35px;
+    padding-bottom: 45px;
+}
+.carousel-container {
+    padding-top:40px;
+    padding-left:35%;
+    padding-right: 35%;
+}
+
+.carousel-inner .item img {
+    width: 100%;
+    height: 350px;
+    
+}
+.carousel {
+    width:550px;
+    height: 250px;
+}
+.bio { 
+    font-family: 'Patrick Hand', cursive;
+    padding: 20px 76px 20px 75px;
+    
+  
+} 
+.bio p { 
+    font-size: 35px;
+}
+    
+.trinket-project {
+   padding: 75px 50px 75px 50px;
+}
+
+.project-title {
+    padding-bottom: 25px;
+}
+.project-description {
+    padding-bottom: 25px;
+    font-size: 25px;
+    font-family: 'Patrick Hand', cursive;
+    
+    
+}
+.mytitle {
+    text-align: center;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    font-family: 'Patrick Hand', cursive;
+}
+    
+    
+    
+.food-item {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    
+    border: 5px;
+    border-style: solid;
+    border-color: #FF0000
+    padding: 2em;
+    position:relative;
+ 
+}    
+
+.food-item img {
+    height: 550px;
+    width: 550px;
+    padding: 50px 50px 50px 50px;
+}
+
+.food-description {
+    border: 3px;
+    border-style: solid;
+    border-color: #FF0000
+    padding: 1em;
+    font-size: 20px;
+    font-family: 'Patrick Hand', cursive;   
+}
+    
+    
+    
+.food-title  {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    font-size: 50px;
+    font-family: 'Patrick Hand', cursive;
+    color: #808080;
+    
+}
+ 
+.food-carousel-container {
+    padding-top:50px;
+    padding-bottom: 150px;
+    padding-left:35%;
+    padding-right:35%;    
+}
+
+.food-item, .food-item-carousel {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    border: 5px;
+    border-style: solid;
+    border-color: #FFOOOO;
+    padding: 2em;
+    position: relative;
+    
+}
+
+
+/**travel**/
+.travel-item  {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    
+    border: 5px;
+    border-style: solid;
+    border-color: black;
+    padding: 2em;
+    position: relative;
+    
+}
+.travel-item img{
+    height: 650px;
+    width: 650px;
+    padding: 50px 50px 50px 50px;
+    margin-left: 25px;
+}
+
+.travel-title{
+    position: relative;
+    font-size: 50px;
+    color: black;
+    left:31%;
+}
+.visited-item {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    
+    border: 5px;
+    border-style: solid;
+    border-color: #FF0000;
+    padding: 2em;
+    position: relative;
+}
+.visited-item img{
+    height: 650px;
+    width: 800px;
+    padding: 50px 50px 50px 50px;
+}
+.visited-description {
+    border: 3px;
+    border-style: solid;
+    border-color: #000000;
+    padding: 1em;
+    font-size: 20px;
+    font-family: 'Patrick Hand' , cursive;
+}
+.visited-description-video {
+    border: 3px;
+    border-style: solid;
+    border-color: #000000;
+    padding: 1em;
+    font-size: 20px;
+    font-family: 'Patrick Hand' , cursive;
+    height: 150px;
+    width:600px;
+}
+
+.visited-title {
+    position: absolute;
+    top: 25%;
+    left: 60.5%;
+    font-size: 50px;
+        color: Black;
+}
+.visited-title-video {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    font-size: 50px;
+     color: Black;
+    
+}
+    
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+    
+    
